@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bulk Bros.</title>
+  
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Beastly&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+<a href="#" class="logo">Bulk Bros.</a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#services">Calculator</a></li>
+      <li><a href="#clc">Contact</a></li>
+    </ul>
+    
+  </header>
+
+<!--Home-->
+
+<section class="home" id="home">
+
+<div class="home-text">
+  <h1>Bulk Bros.</h1>
+  <h2>Great Food to Meet<br> Your Fitness Goals</h2>
+  <a href="#menu" class="btn">Menu</a>
+</div>
+
+  <div class="home-img">
+    <img src="tst.png">
+  </div>
+</section>
+
+  <!--About-->
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="pnkck.png">
+    </div>
+
+    <div class="about-text">
+      <span>About Us</span>
+      <h2>We speak the good<br> food language</h2>
+      <p>Bulk Bros. opened in May of 2016 and is located in Southwest Washington D.C. Open to the public, year round, the restaurant provides a relaxing, casual atmosphere for anyone with fitness goals they wish to achieve.</p>
+      <a href="con.html" class="btn">Learn More</a>
+    </div>
+  </section>
+
+   <!--Menu-->
+
+  <section class="menu" id="menu">
+    <div class="heading">
+      <span>Food menu</span>
+      <h2>Fresh taste and great price</h2>
+    </div>
+
+<div class="menu-container">
+  <div class="box">
+    <div class="box-img">
+      <img src="psta.png">
+    </div>
+    <h2>Carbs</h2>
+    <a href="Carbs.html" class="btn2">See Options</a>
+    
+  </div>
+
+  <div class="box">
+    <div class="box-imgk">
+      <img src="stek.png">
+    </div>
+    <h2>Protein</h2>
+    <a href="pro.html" class="btn2">See Options</a>
+    
+  </div>
+
+  <div class="box">
+    <div class="box-img">
+      <img src="mcoo.jpg">
+    </div>
+    <h2>Fats</h2>
+    <a href="fat.html" class="btn2">See Options</a>
+    
+    
+  </div>
+</div>
+    
+  </section>
+
+  <!--Services-->
+
+  <section class="services" id="services">
+    <div class="heading">
+      <span>Calorie Calculator</span>
+      <h2>Monitor Your Calorie Intake</h2>
+    </div>
+
+    <div class="calc-outer-wrap">
+<div id="form-error" style="display:none;"></div>
+<form class="calc-form" id="calc-form">
+  <div class="form-fields">
+
+    <div class="field-outer">
+      <label for="distance" class="top-label">Age:</label>
+      <div class="field-items">
+        <div class="field field-large">         
+          <input type="text" name="age" id="age" inputmode="numeric" pattern="[0-9]*">
+        </div>
+        
+        <div class="field field-medium">
+          <select name="gender">
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+                   
+          </select>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="field-outer">
+      <label for="height" class="top-label">Height:</label>
+      <div class="field-items">
+        <div class="field">
+          <input type="text" name="height_ft" id="height-ft" inputmode="numeric" pattern="[0-9]*">
+          <label for="height-ft">feet</label>
+        </div>
+        <div class="field">
+          <input type="text" name="height_in" id="height-in" inputmode="numeric" pattern="[0-9]*">
+          <label for="height-in">inches</label>
+        </div>
+       <div class="field">
+          <input type="text" name="height_cm" id="height-cm" inputmode="numeric" pattern="[0-9]*">
+          <label for="height-cm">or centimeters</label>
+        </div>        
+      </div>
+    </div>
+
+    <div class="field-outer">
+      <label for="weight" class="top-label">Your weight:</label>
+      <div class="field-items">
+        <div class="field field-large">
+          <input type="text" name="weight" id="weight" inputmode="numeric" pattern="[0-9]*">
+        </div>
+        <div class="field field-small">
+          <select name="weight_unit">
+            <option value="lb">lb</option>
+            <option value="kg">kg</option>
+          </select>
+        </div>
+      </div>
+    </div>
+   <div class="btn-wrap field-outer">
+    <button class="form-submit">Calculate</button>
+  </div>
+  </div>
+
+
+</form>
+<div id="results" style="display:none;"></div>
+</div>
+    
+  </section>
+
+  
+
+  <section id="clc" class="cta">
+    <h2>We make quality food <br> Everyday</h2>
+    <a href="con.html" class="btn">Let's talk</a>
+  </section>
+
+  <!--Footer-->
+
+  <section id="contact">
+    <div class="footer">
+      <div class="main">
+        <div class="col">
+          <h4>Menu Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Calculator</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="con.html">About Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h4>Contact Us</h4>
+          <div class="social">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100089008391363"><i class='bx bxl-facebook'></i></a>
+            <a target="_blank" href="https://www.instagram.com/bulkbrosres/"><i class='bx bxl-instagram'></i></a>
+            <a target="_blank" href="https://twitter.com/BulkBrosres"><i class='bx bxl-twitter'></i></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UC-iJEx5LuryW4VfcL6p_ztQ"><i class='bx bxl-youtube'></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--Javascript-->
+  
+  <script src="script.js"></script>
+
+ 
+  
+</body>
+
+</html>
