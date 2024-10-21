@@ -161,7 +161,7 @@ section{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
   grid-gap: 1.5rem;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .box{
